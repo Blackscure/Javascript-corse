@@ -14,9 +14,10 @@
 
 // FUNCTIONS
 
-function testExample() {
-    var greeting = "Hi! My name is Buyahi";
+function testExample(a) {
+    var greeting = "Hi! My name is " + a;
     return greeting;
 }
 
-console.log(testExample());
+var name = "Hezzy";
+console.log(testExample(name));
